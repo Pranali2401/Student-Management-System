@@ -1,0 +1,76 @@
+/* styles.css */
+
+/* Title Label */
+.title-label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+    -fx-padding: 10px;
+}
+
+/* Action Buttons */
+.action-button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+    -fx-border-radius: 4px;
+}
+
+.action-button:hover {
+    -fx-background-color: #45a049;
+}
+
+/* Search Field */
+.text-field {
+    -fx-prompt-text-fill: #aaa;
+}
+
+/* Table View */
+.table-view {
+    -fx-table-cell-border-color: #ddd;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #f0f0f0;
+    -fx-background-radius: 0;
+}
+
+.table-view .column-header-background .label {
+    -fx-padding: 5px 10px;
+    -fx-font-weight: bold;
+}
+
+.table-view .table-row-cell {
+    -fx-background-color: transparent;
+    -fx-table-cell-border-color: #ddd;
+}
+
+.table-view .table-cell {
+    -fx-border-color: #ddd;
+}
+
+/* Dialog */
+.dialog-pane {
+    -fx-background-color: #fff;
+}
+
+.dialog-pane .label {
+    -fx-font-weight: bold;
+}
+
+.dialog-pane .text-field {
+    -fx-prompt-text-fill: #aaa;
+}
+
+/* Alert */
+.alert {
+    -fx-background-color: #fff;
+}
+
+.alert .dialog-pane .alert-header {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
